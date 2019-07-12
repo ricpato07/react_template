@@ -29,6 +29,24 @@ Correr servidor local
 serve -s build
 ----------------------------------------------------------
 
+----------------------------------------------------------
+REDUX
+----------------------------------------------------------
+
+Instalar Redux
+npm install redux --save 
+
+Instalar Redux-React 
+npm install react-redux --save
+
+Instalar Redux-thunk
+npm install redux-thunk --save
+
+Instalar Reduc-saga
+npm install redux-saga --save
+
+----------------------------------------------------------
+
 Instalar librerias de Redux
 npm install redux react-redux redux-thunk --save
 
