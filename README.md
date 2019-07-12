@@ -75,6 +75,8 @@ Herramienta para manejar eventos en la aplicación
 https://redux.js.org/introduction/getting-started
 Videos de Redux
 https://egghead.io/lessons/react-redux-the-single-immutable-state-tree
+Guia completa para Redux desde 0
+https://www.valentinog.com/blog/redux/
 
 Mobx
 Manejo de los observables, similar a redux
