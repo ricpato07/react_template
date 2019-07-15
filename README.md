@@ -47,8 +47,22 @@ npm install redux-saga --save
 
 ----------------------------------------------------------
 
-Instalar librerias de Redux
-npm install redux react-redux redux-thunk --save
+----------------------------------------------------------
+BULMA
+----------------------------------------------------------
+
+Instalar Bulma
+npm install bulma --save --save-exact
+
+----------------------------------------------------------
+
+----------------------------------------------------------
+PROP-TYPES
+----------------------------------------------------------
+Instalar prop-types
+npm install --save prop-types
+
+----------------------------------------------------------
 
 Ruta carpeta para colocar el node-sass
 C:\Users\45042195\AppData\Roaming\npm-cache\node-sass
