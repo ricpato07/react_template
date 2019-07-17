@@ -64,6 +64,13 @@ npm install --save prop-types
 
 ----------------------------------------------------------
 
+----------------------------------------------------------
+REACT-ROUTER
+----------------------------------------------------------
+npm install react-router-dom --save
+
+----------------------------------------------------------
+
 Ruta carpeta para colocar el node-sass
 C:\Users\45042195\AppData\Roaming\npm-cache\node-sass
 
