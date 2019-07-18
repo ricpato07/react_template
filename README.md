@@ -1,6 +1,6 @@
 # react_template
 
-**Plugins para React en VSC
+**Plugins para React en VSC**
 
 ESLint - Dirk Baeumer
 
