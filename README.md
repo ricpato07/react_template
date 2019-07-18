@@ -1,8 +1,9 @@
 # react_template
 
 Plugins para React en VSC
-ESLint de Dirk Baeumer
-
+ESLint - Dirk Baeumer
+Bracket Pair Colorizer - CoenraadS
+Reactjs code snippets - charalampos karypidis
 
 Instrucciones:
 
