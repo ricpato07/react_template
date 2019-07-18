@@ -8,6 +8,8 @@ Bracket Pair Colorizer - CoenraadS
 
 Reactjs code snippets - charalampos karypidis
 
+ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
+
 generate-react-component - joshjg
 
 
