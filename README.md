@@ -11,7 +11,7 @@ Reactjs code snippets - charalampos karypidis
 generate-react-component - joshjg
 
 
-**Javascript:
+**Javascript:**
 
 Spread operator
 
@@ -61,7 +61,51 @@ const persona = {
      
 ```
 
+filter , find
 
+```
+const personas = [
+     {nombre: "Juan", edad: 23, aprendiendo: "Javascript"},
+     {nombre: "Pablo", edad: 18, aprendiendo: "PHP"},
+     {nombre: "Alejandra", edad: 20, aprendiendo: "Adobe"},
+     {nombre: "Karen", edad: 38, aprendiendo: "Python"},
+     {nombre: "Miguel", edad: 35, aprendiendo: "React"}
+]
+
+//regresa arreglo con persona mayores a 28 años
+const mayores = personas.filter(persona =>{
+ return persona.edad > 28;
+}) 
+
+//retorno objeto de Alejandra
+const alejandra = personas.find(persona =>{
+  return persona.nombre === 'Alejandra';
+})
+
+//resgresar la suma de las edades
+let total = personas.reduce((edadtotal,persona)=>{
+  return edadTotal + persona.edad;
+}, 0)
+     
+```
+
+Promises
+```
+const aplicarDescuento = new Promise((resolve, reject)=>{
+  setTimeout(()=>{
+  let descuento = true;
+   if(descuento){
+     resolve("Descuento aplicado");
+   }else{
+   reject("No se pudo aplicar el descuento");
+   }
+  },3000);
+})
+
+aplicarDescuento.then(resultado =>{
+  console.log(resultado);
+})
+```
 
 ----------------------------------------------------------
 Crear un nuevo proyecto de react
