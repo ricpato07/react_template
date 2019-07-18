@@ -1,9 +1,63 @@
 # react_template
 
-Plugins para React en VSC
+**Plugins para React en VSC
+
 ESLint - Dirk Baeumer
+
 Bracket Pair Colorizer - CoenraadS
+
 Reactjs code snippets - charalampos karypidis
+
+generate-react-component - joshjg
+
+Javascript:
+Spread operator
+
+```
+arreglo1 = ['hola','como', 'estas']
+arreglo2 = ['hola','como', 'estas']
+
+juntarArreglos = [...arreglo1,...arreglo2]
+copiaArreglo1 = [...arreglo1]
+
+```
+
+Destructuring 
+
+```
+const aprendiendoJS = {
+    version: { nueva: 'ES6',
+               anterior: 'ES5'
+              },
+     frameworks: ['Angular', 'Laravel', 'Spring']         
+  }
+  
+  let {version, frameworks} = aprendiendoJS;
+  
+```
+Object Literal Enhacement
+
+```
+const banda = 'Metallica';
+const genero = 'Heavy Metal'
+const canciones = ['Sick & destroy', 'Unforgiven'];
+
+const metallica = {banda, genero, canciones};
+
+```
+
+Object Keys (regresa las llaves de un objeto)
+
+```
+const persona = {
+     nombe: 'Juan',
+     profesion: 'programador',
+     edad : 30
+     }
+     
+ Objects.keys(persona);    
+     
+```
 
 Instrucciones:
 
