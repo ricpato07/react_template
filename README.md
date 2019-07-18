@@ -10,7 +10,9 @@ Reactjs code snippets - charalampos karypidis
 
 generate-react-component - joshjg
 
-Javascript:
+
+**Javascript:
+
 Spread operator
 
 ```
@@ -59,7 +61,7 @@ const persona = {
      
 ```
 
-Instrucciones:
+
 
 ----------------------------------------------------------
 Crear un nuevo proyecto de react
