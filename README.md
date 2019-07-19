@@ -12,6 +12,20 @@ ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
 
 generate-react-component - joshjg
 
+**Snippeds**
+
+imrc→	import React, { Component } from 'react'
+
+nfn→	const functionName = (params) => { }
+
+rcc
+import React, { Component } from 'react'
+
+export default class FileName extends Component {
+  render() {
+    return <div>$2</div>
+  }
+}
 
 **Javascript:**
 
