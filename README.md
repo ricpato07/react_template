@@ -29,6 +29,15 @@ export default class FileName extends Component {
 
 **Javascript:**
 
+Assing 
+```
+arreglo1 = ['hola','como', 'estas']
+arreglo2 = ['hola','como', 'estas']
+
+juntarArreglos = Object.assign(arreglo1, arreglo2);
+
+```
+
 Spread operator
 
 ```
