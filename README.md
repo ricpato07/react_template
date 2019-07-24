@@ -29,6 +29,14 @@ export default class FileName extends Component {
 
 **Javascript:**
 
+Clone
+
+```
+  clone(object : any):any{
+    return JSON.parse(JSON.stringify(object));
+  }
+```
+
 Assing 
 ```
 arreglo1 = ['hola','como', 'estas']
