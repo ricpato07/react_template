@@ -38,6 +38,17 @@ juntarArreglos = Object.assign(arreglo1, arreglo2);
 
 ```
 
+Borrar elementos de lista (borra directamente en el arreglo original)
+
+```
+array.splice(index, howmany, item1, ....., itemX)
+
+index:	Required. An integer that specifies at what position to add/remove items, Use negative values to specify the position from the end of the array
+howmany:	Optional. The number of items to be removed. If set to 0, no items will be removed
+item1, ..., itemX:	Optional. The new item(s) to be added to the array
+
+```
+
 Spread operator
 
 ```
