@@ -81,6 +81,13 @@ arreglo2 = ['hola','como', 'estas']
 juntarArreglos = [...arreglo1,...arreglo2]
 copiaArreglo1 = [...arreglo1]
 
+const persona = {
+ nombre : "Tony",
+ apellido: "Stark"
+};
+
+const persona2 = {...persona};
+
 ```
 
 Destructuring 
